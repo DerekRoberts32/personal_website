@@ -315,7 +315,7 @@ export const nodes: GraphNode[] = [
       links: [
         { label: 'GitHub', url: 'https://github.com/DerekRoberts32' },
       ],
-      images: ['/signal-list.png', '/signal-detail-metrics.png', '/signal-detail-overview.png'],
+      images: [`${import.meta.env.BASE_URL}signal-list.png`, `${import.meta.env.BASE_URL}signal-detail-metrics.png`, `${import.meta.env.BASE_URL}signal-detail-overview.png`],
     },
   },
 ];

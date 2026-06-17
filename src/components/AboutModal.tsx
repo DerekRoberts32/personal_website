@@ -80,7 +80,7 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
                       height: 180,
                     }}
                   >
-                    <img src="/headshot.jpeg" alt="Derek Roberts" className="w-full h-full object-cover object-top" />
+                    <img src={`${import.meta.env.BASE_URL}headshot.jpeg`} alt="Derek Roberts" className="w-full h-full object-cover object-top" />
                   </div>
                   <div className="absolute -top-2 -left-2 w-5 h-5" style={{ borderTop: '2px solid #00d4ff', borderLeft: '2px solid #00d4ff' }} />
                   <div className="absolute -top-2 -right-2 w-5 h-5" style={{ borderTop: '2px solid #00d4ff', borderRight: '2px solid #00d4ff' }} />
@@ -227,7 +227,7 @@ export default function AboutModal({ open, onClose }: AboutModalProps) {
                       GitHub ↗
                     </a>
                     <a
-                      href="/Derek_Resume_Updated.pdf"
+                      href={`${import.meta.env.BASE_URL}Derek_Resume_Updated.pdf`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-6 py-2.5 text-xs font-mono font-bold tracking-widest uppercase transition-all hover:scale-105"
