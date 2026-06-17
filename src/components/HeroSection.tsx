@@ -17,7 +17,7 @@ export default function HeroSection({ onAbout }: HeroSectionProps) {
         {[
           { label: 'LinkedIn', href: 'https://linkedin.com/in/derekaroberts' },
           { label: 'GitHub', href: 'https://github.com/DerekRoberts32' },
-          { label: 'Resume', href: '/Derek_Resume_Updated.pdf' },
+          { label: 'Resume', href: `${import.meta.env.BASE_URL}Derek_Resume_Updated.pdf` },
         ].map((link) => (
           <a
             key={link.label}

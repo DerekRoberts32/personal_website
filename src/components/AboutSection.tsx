@@ -171,7 +171,7 @@ export default function AboutSection() {
             LinkedIn ↗
           </a>
           <a
-            href="/Derek_Resume_Updated.pdf"
+            href={`${import.meta.env.BASE_URL}Derek_Resume_Updated.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 text-xs font-mono font-bold tracking-widest uppercase transition-all hover:scale-105"
